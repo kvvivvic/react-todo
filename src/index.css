@@ -4,8 +4,12 @@
   --color-grey: #d1d1d1;
   --color-text: #22243b;
   --color-accent: #f16e03;
+  --color-white: #fff;
 }
 
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -16,6 +20,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.2rem;
   background: rgb(157, 151, 255);
   background: linear-gradient(90deg, rgba(157, 151, 255, 1) 0%, rgba(222, 222, 222, 1) 100%);
 }
