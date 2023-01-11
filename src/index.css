@@ -7,6 +7,12 @@
   --color-white: #fff;
   --color-scrollbar: #aaa7a7;
 }
+html.dark {
+  --color-bg-dark: #1a1c35;
+  --color-bg: #22243b;
+  --color-text: #fdfffd;
+  --color-grey: #4e4e4e;
+}
 
 * {
   box-sizing: border-box;
